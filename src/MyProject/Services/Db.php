@@ -6,7 +6,8 @@ namespace MyProject\Services;
 
 class Db
 {
-        private static $instance;
+
+    private static $instance;
 
     /** @var \PDO */
     private $pdo;
